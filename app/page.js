@@ -2,6 +2,7 @@ export default function Home() {
   return (
     <div>
       <h1>Welcome to the Home Page</h1>
+      <h2>Aprendendo git.</h2>
     </div>
   );
 }

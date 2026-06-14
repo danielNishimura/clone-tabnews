@@ -32,3 +32,5 @@ npm run docs
 - Automatizar carregamento do nvm no shell (~/.bashrc)
 - Gerar documentação de componentes (Storybook / react-docgen)
 - Migrar docs para Docusaurus ou MkDocs para documentação maior
+
+# clone-tabnews
