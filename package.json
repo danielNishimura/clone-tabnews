@@ -1,0 +1,27 @@
+{
+  "name": "cursodev",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "license": "MIT",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "docs": "npx serve docs",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "build-storybook -o storybook-static"
+  },
+  "dependencies": {
+    "next": "^16.2.9",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^8.6.18",
+    "@storybook/addon-links": "^8.6.18",
+    "@storybook/cli": "^8.6.18",
+    "@storybook/react": "^8.6.18",
+    "@storybook/react-webpack5": "^8.6.18"
+  }
+}
