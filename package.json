@@ -8,6 +8,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write .",
     "docs": "npx serve docs",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "build-storybook -o storybook-static"
@@ -22,6 +24,7 @@
     "@storybook/addon-links": "^8.6.18",
     "@storybook/cli": "^8.6.18",
     "@storybook/react": "^8.6.18",
-    "@storybook/react-webpack5": "^8.6.18"
+    "@storybook/react-webpack5": "^8.6.18",
+    "prettier": "^3.8.4"
   }
 }

@@ -3,6 +3,7 @@
 Projeto Next.js — documentação mínima.
 
 ## Como rodar (recomendado)
+
 1. Instale e carregue o nvm (se não tiver):
 
 ```bash
@@ -22,6 +23,7 @@ npm run dev
 ```
 
 ## Documentação local
+
 Para ver a documentação localmente:
 
 ```bash
@@ -29,6 +31,7 @@ npm run docs
 ```
 
 ## Próximos passos
+
 - Automatizar carregamento do nvm no shell (~/.bashrc)
 - Gerar documentação de componentes (Storybook / react-docgen)
 - Migrar docs para Docusaurus ou MkDocs para documentação maior

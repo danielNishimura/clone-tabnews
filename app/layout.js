@@ -1,14 +1,12 @@
 export const metadata = {
-  title: 'Meu Curso Dev',
-  description: 'Criado com Next.js',
-}
+  title: "Meu Curso Dev",
+  description: "Criado com Next.js",
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
-      <body>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
-  )
+  );
 }
