@@ -9,6 +9,8 @@
   "scripts": {
     "dev": "next dev",
     "docs": "npx serve docs",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "build-storybook -o storybook-static"
   },
@@ -22,6 +24,7 @@
     "@storybook/addon-links": "^8.6.18",
     "@storybook/cli": "^8.6.18",
     "@storybook/react": "^8.6.18",
-    "@storybook/react-webpack5": "^8.6.18"
+    "@storybook/react-webpack5": "^8.6.18",
+    "jest": "^30.4.2"
   }
 }
