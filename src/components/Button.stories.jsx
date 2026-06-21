@@ -1,10 +1,10 @@
-
-import React from 'react';
-import Button from './Button';
+import React from "react";
+import Button from "./Button";
 
 export default {
-  title: 'Example/Button',
+  title: "Example/Button",
   component: Button,
 };
 
-export const Primary = () => React.createElement(Button, { onClick: () => alert('clicked') }, 'Click me');
+export const Primary = () =>
+  React.createElement(Button, { onClick: () => alert("clicked") }, "Click me");
