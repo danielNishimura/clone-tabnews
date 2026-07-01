@@ -1,0 +1,11 @@
+# para iniciar o docker da pasta infra
+    docker compose -f infra/compose.yaml up -d
+
+# para logar no postgres
+    psql --host=localhost --port=5432 --username=myuser
+
+# para rodar o sistema
+    npm run dev
+
+# para rodar o teste
+    npm run test:watch
