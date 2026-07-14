@@ -1,7 +1,6 @@
 {
   "name": "cursodev",
   "version": "1.0.0",
-  "type": "module",
   "description": "",
   "license": "MIT",
   "author": "",
@@ -11,15 +10,20 @@
     "services:up": "docker compose -f infra/compose.yaml up -d",
     "services:stop": "docker compose -f infra/compose.yaml stop",
     "services:down": "docker compose -f infra/compose.yaml down",
-    
     "docs": "npx serve docs",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write .",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "build-storybook -o storybook-static"
+    "build-storybook": "build-storybook -o storybook-static",
+    "migration:create": "node-pg-migrate --migrations-dir infra/migrations create",
+    "migration:up": "node-pg-migrate --migrations-dir infra/migrations --envPath .env.development up"
   },
   "dependencies": {
+    "dotenv": "^16.4.4",
     "next": "^16.2.9",
+    "node-pg-migrate": "^6.2.2",
     "pg": "^8.11.3",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
